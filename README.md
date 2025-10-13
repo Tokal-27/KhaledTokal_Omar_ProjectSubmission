@@ -218,7 +218,6 @@ Stack1-terraform-output
 <img width="812" height="556" alt="Stack1-terraform-output" src="https://github.com/user-attachments/assets/1a510347-ff70-4890-9c1e-2de6793dd99f" />
 
 
-<img width="1920" height="968" alt="Screenshot from 2025-10-14 00-51-13" src="https://github.com/user-attachments/assets/f605fade-e2f0-4f5e-a62e-f9a49ebaa594" />
 
 
 Stack2-terraform-output
