@@ -1,0 +1,77 @@
+1
+	
+20:45:48
+	
+CREATE EXTENSION IF NOT EXISTS vector
+	
+success
+	
+no rows changed
+	
+1980 ms
+2
+	
+20:45:49
+	
+CREATE SCHEMA IF NOT EXISTS bedrock_integration
+	
+success
+	
+no rows changed
+	
+278 ms
+3
+	
+20:45:49
+	
+DO $$ BEGIN CREATE ROLE bedrock_user LOGIN; EXCEPTION WHEN duplicate_object THEN RAISE NOTICE 'Role already exists'; END $$
+	
+success
+	
+no rows changed
+	
+282 ms
+4
+	
+20:45:49
+	
+GRANT ALL ON SCHEMA bedrock_integration to bedrock_user
+	
+success
+	
+no rows changed
+	
+266 ms
+5
+	
+20:45:49
+	
+SET SESSION AUTHORIZATION bedrock_user
+	
+success
+	
+no rows changed
+	
+289 ms
+6
+	
+20:45:50
+	
+CREATE TABLE IF NOT EXISTS bedrock_integration.bedrock_kb ( id uuid PRIMARY KEY, embedding vector(1536), chunks text, metadata json )
+	
+success
+	
+no rows changed
+	
+302 ms
+7
+	
+20:45:50
+	
+CREATE INDEX IF NOT EXISTS bedrock_kb_embedding_idx ON bedrock_integration.bedrock_kb USING hnsw (embedding vector_cosine_ops)
+	
+success
+	
+no rows changed
+	
+274 ms
