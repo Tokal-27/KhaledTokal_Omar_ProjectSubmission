@@ -195,7 +195,6 @@ Screenshot showing the information of the bedrock_integration.bedrock_kb table b
 
 
 <img width="1920" height="1080" alt="Screenshot showing the information of the bedrock_integration bedrock_kb table by running the following query:
-
 " src="https://github.com/user-attachments/assets/ae845307-504a-463f-82b6-4e7913be92a3" />
 
 
