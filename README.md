@@ -199,6 +199,20 @@ Screenshot showing the information of the bedrock_integration.bedrock_kb table b
 
 
 
+Empty task name 
+<img width="1920" height="968" alt="Screenshot from 2025-10-14 00-51-13" src="https://github.com/user-attachments/assets/f605fade-e2f0-4f5e-a62e-f9a49ebaa594" />
+
+
+
+Sync of S3 Bucket 
+
+<img width="1920" height="1080" alt="Screenshot from 2025-10-14 00-57-41" src="https://github.com/user-attachments/assets/9a7678b1-facd-46d9-9f26-6815289b5d4a" />
+
+
+
+
+
+
 Stack1-terraform-output
 
 <img width="812" height="556" alt="Stack1-terraform-output" src="https://github.com/user-attachments/assets/1a510347-ff70-4890-9c1e-2de6793dd99f" />
