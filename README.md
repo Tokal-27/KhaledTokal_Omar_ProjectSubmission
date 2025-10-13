@@ -216,3 +216,17 @@ Streamlit Deploy (Offline)
 <img width="1920" height="1080" alt="Screenshot from 2025-10-13 21-23-59" src="https://github.com/user-attachments/assets/cbc716c9-243e-493c-a3c9-6638802fb956" />
 
 
+
+
+
+## 📞 Contact
+
+For questions or feedback, reach out to:
+- GitHub Issues
+- Email: Omar.tokal2020@gmail.com
+
+
+---
+
+
+
